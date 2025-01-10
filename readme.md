@@ -4,9 +4,9 @@
 
 # Submission Details
 
-- Your Github Repository ("")
+- Github Repository Link Is ("https://github.com/MHMITHUN/-Assignment-01-PH")
 
-- Your Live Link ("")
+- Live Website Link is ("https://mhmithun.github.io/-Assignment-01-PH/")
 
 ---
 
