@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -46,6 +45,7 @@ header {
     color: #fff;
 }
 
+/* Hero Section */
 .bdy {
     width: 1536px;
     height: 590px;
@@ -61,6 +61,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-radius: 30px;
 }
 
 .bd {
@@ -69,7 +70,6 @@ header {
     font-weight: 500;
     margin-bottom: 15px;
 }
-
 .txt {
     color: rgb(14, 14, 14);
     font-size: 52px;
@@ -97,10 +97,12 @@ header {
     border-radius: 8px;
 }
 
+/* Container for Pillars and Vision */
 .nw-bdy {
     width: 1536px;
     background-color: #ebebeb;
 }
+
 
 #needy {
     height: 360px;
@@ -113,7 +115,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* border: 1px solid midnightblue; */
 }
 
 .pills {
@@ -166,7 +167,7 @@ header {
     font-weight: 400;
     line-height: 24px;
 }
-
+/* Vision Section */
 .vis-desc {
     padding-left: 15px;
 }
@@ -175,6 +176,7 @@ header {
     display: flex;
 }
 
+/* Reusable color buttons */
 .clr-btn {
     border-radius: 8px;
     background: rgb(84, 144, 245);
@@ -184,7 +186,6 @@ header {
     color: #fff;
     border: none;
     cursor: pointer;
-
 }
 
 .clr-btn0 {
@@ -215,7 +216,6 @@ header {
     border: 2px solid currentColor;
 }
 
-
 .digi-tns {
     line-height: 40px;
     background-color: rgba(84, 144, 245, 0.2);
@@ -243,9 +243,10 @@ header {
     padding-bottom: 10px;
 }
 
+/* Dr. Yunus Section */
 .yunus {
     width: 1229px;
-    height: 200px;
+    height: 225px;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     margin: 20px auto 60px auto;
@@ -261,6 +262,19 @@ header {
     margin-bottom: 20px;
 }
 
+.likha-likhi {
+    padding-top: 10px;
+}
+
+.nam-ki {
+    padding-top: 10px;
+}
+
+.podobi {
+    padding-top: 5px;
+
+}
+/* Opinion Section */
 .opin {
     color: rgb(14, 14, 14);
     font-size: 25px;
@@ -278,7 +292,6 @@ header {
     margin: 0 auto;
     margin-top: 35px;
     padding-left: 20px;
-    /* border: 1px solid blue; */
     border-radius: 12px;
     overflow: hidden;
 }
@@ -336,7 +349,7 @@ header {
     background-color: #C6E4D6;
 }
 
-
+/* Footer Title */
 .bdbd {
     margin-top: 20px;
 }
@@ -348,7 +361,6 @@ header {
 
 /* --------------------------- Recent News --------------------------- */
 .recent {
-    width: 1280px;
     margin: 0 auto 30px auto;
     background-color: transparent;
     border: none;
@@ -375,7 +387,6 @@ header {
 
 .rcnt-flx,
 .rcnt-flx-rev {
-    width: 1280px;
     height: 402px;
     display: flex;
     gap: 32px;
@@ -386,7 +397,7 @@ header {
 }
 
 .rcnt-flx-rev {
-    padding-left:30px;
+    padding-left: 30px;
     padding-right: 35px;
     flex-direction: row-reverse;
 }
@@ -409,6 +420,11 @@ header {
     margin-bottom: 12px;
     margin-top: 48px;
     color: rgba(14, 14, 14, 0.8);
+}
+
+.smne-ano {
+    display: flex;
+    padding-top: 30px;
 }
 
 .dv-rght img.jajera {
@@ -446,7 +462,6 @@ header {
 
 /* ------------------------- Donate Today ------------------------- */
 .donate-section {
-    width: 1280px;
     margin: 0 auto 30px auto;
     background-color: #fff;
     border-radius: 16px;
@@ -513,19 +528,13 @@ header {
     margin-right: auto;
     width: 1032px;
     height: 64px;
-    border: 1px solid #0e0e0e;
-    color: #0e0e0e;
     text-align: center;
     margin-bottom: 32px;
     background-color: #fff;
     display: block;
-    border-radius: 0;
+    border-radius: 30px;
+    /* border: none; */
 }
-
-#input-donate:focus {
-    outline: none;
-}
-
 .dnt-btn1 {
     border-radius: 8px;
     border: none;
@@ -538,12 +547,11 @@ header {
 }
 
 .dnt-btn1:hover {
-    background-color: chocolate;
+    background-color: rgb(119, 209, 229);
 }
 
 /* ---------------------- Subscribe Newsletter ---------------------- */
 .news-sec {
-    width: 1280px;
     height: auto;
     background-color: #c6e4d6;
     border-radius: 24px;
@@ -564,22 +572,13 @@ header {
     margin-bottom: 20px;
 }
 
-.likha-likhi {
-    padding-top: 10px;
-}
-
-.nam-ki {
-    padding-top: 10px;
-}
-
 .news-desc {
-    width: 622px;
-    max-width: 90%;
     font-size: 16px;
     color: #0e0e0e;
-    margin: 0 auto 24px auto;
     text-align: center;
+    max-width: 1100px;
     line-height: 26px;
+    margin: 0 auto 24px auto;
 }
 
 .inp-news {
@@ -622,7 +621,13 @@ header {
     margin-top: 10px;
 }
 
-/* Footer */
+/* Footer Section */
 footer {
     text-align: center;
+}
+
+footer .nw-bdy {
+    width: 1536px;
+    background-color: #ebebeb;
+    padding-bottom: 50px;
 }
