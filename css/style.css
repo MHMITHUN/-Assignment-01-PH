@@ -399,6 +399,10 @@ header {
     background-color: white;
 }
 
+.nd-pd {
+    padding-bottom: 25px;
+}
+
 .rcnt-flx-rev {
     padding-left: 30px;
     padding-right: 35px;
@@ -535,7 +539,7 @@ header {
     margin-bottom: 32px;
     background-color: #fff;
     display: block;
-    border-radius: 30px;
+    border-radius: 25px;
     /* border: none; */
 }
 
