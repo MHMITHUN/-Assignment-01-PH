@@ -265,16 +265,13 @@ header {
 
 .style-kri {
     padding: 16px;
+    margin-bottom: 20px;
 }
 
 .opin {
     color: rgb(14, 14, 14);
     font-size: 25px;
     font-weight: 700;
-}
-
-.style-kri {
-    margin-bottom: 20px;
 }
 
 
@@ -288,8 +285,6 @@ header {
 .rcnt-flx {
     display: flex;
 }
-
-#test-order {}
 
 /* ------- Donate section*/
 .fr-btn {
