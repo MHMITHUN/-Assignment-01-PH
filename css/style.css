@@ -285,6 +285,12 @@ header {
 .rcnt-flx {
     display: flex;
 }
+.rcnt-flx-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 
 /* ------- Donate section*/
 .fr-btn {
