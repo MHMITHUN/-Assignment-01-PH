@@ -1,343 +1,359 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;
-    /* margin-left: 40px; */
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-    /* background-color: #F5F5F5 ; */
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 header {
-    /* border: 1px solid red; */
-    background-color: #ebebeb;
+  background-color: #ebebeb;
 }
 
 .navbar {
-    width: 1536px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 1536px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .bd-nav {
-    padding-left: 154px;
-    font-size: 25px;
-    color: rgb(14, 14, 14);
-    font-size: 29px;
-    font-weight: 700;
+  padding-left: 154px;
+  font-size: 29px;
+  font-weight: 700;
 }
 
 .btn-nav {
-    padding-right: 154px;
+  padding-right: 154px;
 }
 
 .nav-btn {
-    padding: 15px 29px 15px 29px;
-    font-size: 14px;
-    color: rgb(0, 106, 80);
-    font-weight: 600;
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 8px;
-    letter-spacing: .5px;
+  padding: 15px 29px;
+  font-size: 14px;
+  color: rgb(0, 106, 80);
+  font-weight: 600;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  letter-spacing: .5px;
 }
 
 .nav-btn:hover {
-    cursor: pointer;
-    transition: .8s;
-    background-color: rgb(0, 106, 80);
-    color: white;
+  cursor: pointer;
+  transition: .8s;
+  background-color: rgb(0, 106, 80);
+  color: #fff;
 }
 
 .bdy {
-    width: 1536px;
-    height: 590px;
-    border: 1px solid aqua;
-    background-color: #ebebeb;
-    padding-bottom: 20px;
+  width: 1536px;
+  height: 590px;
+  background-color: #ebebeb;
+  padding-bottom: 20px;
 }
 
 .body-div {
-    border: 1px solid blue;
-    width: 1229px;
-    height: 538px;
-    /* width:80%; */
-    margin: 0 auto;
-
-    background-color: rgb(198, 228, 214);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  width: 1229px;
+  height: 538px;
+  margin: 0 auto;
+  background-color: rgb(198, 228, 214);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .bd {
-    color: rgba(14, 14, 14, 0.5);
-    font-size: 20px;
-    font-weight: 500;
-    text-align: left;
-    margin-bottom: 15px;
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .txt {
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 67px;
-    margin-bottom: 20px;
+  color: rgb(14, 14, 14);
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 67px;
+  margin-bottom: 20px;
 }
 
 .reusable-btn {
-    padding: 15px 29px 15px 29px;
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    letter-spacing: .5px;
+  padding: 15px 29px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  letter-spacing: .5px;
 }
 
 .reusable-btn:hover {
-    cursor: pointer;
-    transition: .8s;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 106, 80);
-    border-radius: 8px;
+  cursor: pointer;
+  transition: .8s;
+  background-color: #fff;
+  color: rgb(0, 106, 80);
+  border-radius: 8px;
 }
 
 .nw-bdy {
-    width: 1536px;
-    /* height: ; */
-    border: 1px solid crimson;
-    background-color: #ebebeb;
+  width: 1536px;
+  background-color: #ebebeb;
 }
 
 #needy {
-    height: 360px;
+  height: 360px;
 }
 
 .box-pill {
-    width: 1229px;
-    height: 450px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: 1px solid midnightblue;
+  width: 1229px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid midnightblue;
 }
 
 .pills {
-    color: rgb(14, 14, 14);
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-left: 15px;
+  color: rgb(14, 14, 14);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-left: 15px;
 }
 
 .container {
-    display: flex;
-
+  display: flex;
 }
 
 .common-bg {
-    background-color: #FFFFFF;
-    margin: 15px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    padding: 20px;
+  background-color: #fff;
+  margin: 15px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 20px;
 }
 
 .common-bg:hover {
-    cursor: pointer;
-    transition: .8s;
-    background-color: rgb(0, 106, 80);
-    color: white;
+  cursor: pointer;
+  transition: .8s;
+  background-color: rgb(0, 106, 80);
+  color: #fff;
 }
 
 .tt-clr {
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 20px;
-    font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .mg-lagbe {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .txt-clr {
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .vis-desc {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
-
-
-
-
-
 .vis-container {
-    display: flex;
+  display: flex;
 }
 
 .clr-btn {
-    border-radius: 8px;
-    background: rgb(84, 144, 245);
-    padding: 11px 20px 11px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .clr-btn0 {
-    border-radius: 8px;
-    background: rgb(9, 161, 92);
-    padding: 11px 20px 11px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .clr-btn1 {
-    border-radius: 8px;
-    background: rgb(255, 194, 57);
-    padding: 11px 20px 11px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .digi-tns {
-    line-height: 40px;
-    background-color: rgba(84, 144, 245, 0.2);
-
+  line-height: 40px;
+  background-color: rgba(84, 144, 245, 0.2);
 }
 
 .grn-eng {
-    background-color: rgb(198, 228, 214);
-    line-height: 40px;
-
+  background-color: rgb(198, 228, 214);
+  line-height: 40px;
 }
 
 .md-in {
-    line-height: 40px;
-    background-color: rgb(247, 235, 207);
+  line-height: 40px;
+  background-color: rgb(247, 235, 207);
 }
 
 .kisu-likha {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .kisu-likha0 {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .kisu-likha1 {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .yunus {
-    width: 1229px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: 1px solid white;
-    margin-top: 20px;
-    margin-bottom: 60px;
-
-}
-
-.yunus {
-    background-image: url("../assets/quote-bg.png");
-    background-repeat: no-repeat;
-    background-color: white;
-    border-radius: 15px;
+  width: 1229px;
+  height: 200px;
+  margin: 20px auto 60px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
 .style-kri {
-    padding: 16px;
-    margin-bottom: 20px;
+  padding: 16px;
+  margin-bottom: 20px;
 }
 
 .opin {
-    color: rgb(14, 14, 14);
-    font-size: 25px;
-    font-weight: 700;
+  color: rgb(14, 14, 14);
+  font-size: 25px;
+  font-weight: 700;
 }
 
-
 .re-use {
-    width: 1229px;
-    height: 450px;
-    margin: 0 auto;
-    border: 1px solid midnightblue;
+  width: 1229px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid midnightblue;
 }
 
 .rcnt-flx {
-    display: flex;
+  display: flex;
 }
+
 .rcnt-flx-rev {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
+.tbl {
+  border-collapse: collapse;
+  width: 80%;
+}
 
-
-/* ------- Donate section*/
 .fr-btn {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #input-donate {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .dnt-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .inp-news {
-    display: flex;
+  display: flex;
 }
 
 .dnt-disc {
-    padding: 25px;
-    padding-left: 50px;
+  padding: 25px;
+  padding-left: 50px;
 }
 
 .dnt-btn1 {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
-#ses-icon>img {
-    padding-top: 30px;
-    padding-right: 20px;
+#ses-icon > img {
+  padding-top: 30px;
+  padding-right: 20px;
 }
 
 .news-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(198, 228, 214);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(198, 228, 214);
 }
 
 #email-subs {
+  padding-right: 300px;
+}
 
-    padding-right: 300px;
+.for-tbl {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.styled-table thead {
+  background-color: rgb(198, 228, 214);
+}
+
+.styled-table th {
+  padding: 15px;
+  text-align: left;
+  font-weight: 700;
+  color: #000;
+  border-bottom: 2px solid #ccc;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table td {
+  padding: 15px;
+  color: #333;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f3f3f3;
+}
+
+.styled-table select {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
 }
